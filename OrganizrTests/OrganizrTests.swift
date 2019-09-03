@@ -25,6 +25,7 @@ class OrganizrTests: XCTestCase {
     
     func testExample() {
         XCTAssert(viewController.sum(first: 10, second: 20) == 30)
+        // ihu
     }
 
     func testPerformanceExample() {
