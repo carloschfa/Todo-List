@@ -12,7 +12,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .red
         // Do any additional setup after loading the view.
+    }
+    
+    func sum(first: Int, second: Int) -> Int {
+        return first + second
     }
 
 
